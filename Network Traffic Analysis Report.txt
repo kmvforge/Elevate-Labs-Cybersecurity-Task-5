@@ -1,0 +1,82 @@
+CYBER SECURITY INTERNSHIP
+
+Task 5: Capture and Analyze Network Traffic Using Wireshark
+
+Student Name:
+Date:
+
+--------------------------------------------------
+Objective
+--------------------------------------------------
+
+To capture live network packets using Wireshark and analyze the protocols observed during normal web browsing.
+
+--------------------------------------------------
+Tool Used
+--------------------------------------------------
+
+• Wireshark
+
+--------------------------------------------------
+Procedure
+--------------------------------------------------
+
+1. Installed Wireshark.
+2. Selected the active Wi-Fi interface.
+3. Started packet capture.
+4. Generated network traffic by browsing websites.
+5. Stopped packet capture after approximately one minute.
+6. Applied protocol filters (DNS, TCP, TLS).
+7. Saved the capture as network_capture.pcapng.
+
+--------------------------------------------------
+Protocols Identified
+--------------------------------------------------
+
+1. DNS (Domain Name System)
+Purpose:
+Resolves domain names into IP addresses.
+
+Observation:
+DNS queries and responses were observed for websites accessed during browsing.
+
+--------------------------------------------------
+
+2. TCP (Transmission Control Protocol)
+
+Purpose:
+Provides reliable communication between devices.
+
+Observation:
+TCP packets established reliable communication sessions and handled acknowledgements between client and server.
+
+--------------------------------------------------
+
+3. TLS (Transport Layer Security)
+
+Purpose:
+Encrypts communication between client and server.
+
+Observation:
+TLS packets showed encrypted HTTPS communication including TLS handshakes and encrypted application data.
+
+--------------------------------------------------
+Packet Summary
+--------------------------------------------------
+
+Capture Duration:
+Approximately 1 minute
+
+Traffic Type:
+Normal web browsing
+
+Protocols Found:
+• DNS
+• TCP
+• TLS
+
+--------------------------------------------------
+Conclusion
+--------------------------------------------------
+
+Wireshark successfully captured live network traffic. Multiple protocols including DNS, TCP, and TLS were identified. The packet analysis demonstrated how DNS resolves domain names, TCP establishes reliable communication, and TLS secures network traffic through encryption.
